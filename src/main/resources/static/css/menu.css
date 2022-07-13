@@ -1,54 +1,84 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
 }
-body{
+
+body {
     font-family: sans-serif;
     padding: 90px 20px 0;
-    padding-top: 7%;
 }
-.header{
-    background-color: #076AF0;
+
+.header {
+    background-color: blue;
     height: 12%;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     margin: 0 auto;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     text-decoration: none;
 }
+
 .logo {
     font-size: 30px;
     font-weight: bold;
-    padding:0 40px;
-    line-height: 12vh;
+    padding: 0 40px;
+    line-height: 80px;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     margin-left: 40px;
     list-style: none;
 }
 
-.nav-menu-item{
+.nav-menu-item {
     font-size: 18px;
     margin: 0 10px;
+    line-height: 80px;
     line-height: 12vh;
 }
 
-.nav-menu-item:hover{
-    background-color: navy;
-    transition: 0.5s;
-}
-.nav-menu-item-link{
+
+.nav-menu-link {
     padding: 8px 12px;
     border-radius: 4px;
+    
+}
+.nav-menu-item:hover {
+    font-size: 22px;
+    background-color: navy;
+    transition: 1s;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.contenido {
+    background-color: wheat;
+    position: fixed;
+    top: 80px;
+    bottom: 20px;
+    left:  0;
+    width: 100%;
+    overflow: auto;
 }
